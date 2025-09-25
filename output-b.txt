@@ -1,0 +1,171 @@
+----------------------------------------
+Trying n = 1
+
+Moving disk 1 from #Rod #1 to #Rod #3
+
+Number of Moves = 1
+----------------------------------------
+Trying n = 2
+
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 2 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+
+Number of Moves = 3
+----------------------------------------
+Trying n = 3
+
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 3 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+
+Number of Moves = 7
+----------------------------------------
+Trying n = 4
+
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 2 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+Moving disk 3 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #1
+Moving disk 2 from #Rod #3 to #Rod #2
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 4 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+Moving disk 2 from #Rod #2 to #Rod #1
+Moving disk 1 from #Rod #3 to #Rod #1
+Moving disk 3 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 2 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+
+Number of Moves = 15
+----------------------------------------
+Trying n = 5
+
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 3 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 4 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 2 from #Rod #3 to #Rod #1
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 3 from #Rod #3 to #Rod #2
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 5 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 3 from #Rod #2 to #Rod #1
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 2 from #Rod #3 to #Rod #1
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 4 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 3 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+
+Number of Moves = 31
+(base) Pavans-MacBook-Pro-2:part-b pavan$ g++ -std=c++11 part-b.cpp -o drive2
+part-b.cpp:26:9: error: void function 'towerHanoi' should not return a value [-Wreturn-type]
+   26 |         return 0;
+      |         ^      ~
+1 error generated.
+(base) Pavans-MacBook-Pro-2:part-b pavan$ g++ -std=c++11 part-b.cpp -o drive2
+(base) Pavans-MacBook-Pro-2:part-b pavan$ ./drive2
+----------------------------------------
+Trying n = 1
+
+Moving disk 1 from #Rod #1 to #Rod #3
+
+Number of Moves = 1
+----------------------------------------
+Trying n = 2
+
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 2 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+
+Number of Moves = 3
+----------------------------------------
+Trying n = 3
+
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 3 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+
+Number of Moves = 7
+----------------------------------------
+Trying n = 4
+
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 2 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+Moving disk 3 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #1
+Moving disk 2 from #Rod #3 to #Rod #2
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 4 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+Moving disk 2 from #Rod #2 to #Rod #1
+Moving disk 1 from #Rod #3 to #Rod #1
+Moving disk 3 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #2
+Moving disk 2 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #3
+
+Number of Moves = 15
+----------------------------------------
+Trying n = 5
+
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 3 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 4 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 2 from #Rod #3 to #Rod #1
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 3 from #Rod #3 to #Rod #2
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 5 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 3 from #Rod #2 to #Rod #1
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 2 from #Rod #3 to #Rod #1
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 4 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+Moving disk 2 from #Rod #1 to #Rod #2
+Moving disk 1 from #Rod #3 to #Rod #2
+Moving disk 3 from #Rod #1 to #Rod #3
+Moving disk 1 from #Rod #2 to #Rod #1
+Moving disk 2 from #Rod #2 to #Rod #3
+Moving disk 1 from #Rod #1 to #Rod #3
+
+Number of Moves = 31
