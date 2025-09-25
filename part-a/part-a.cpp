@@ -10,7 +10,7 @@ using namespace std;
 *******************************************************************************/
 
 template <typename T>
-T findMaxRecTail(const T[], const int, int = 0);
+T findMaxRecTail(const T arr[], const int SIZE, int i = 0);
 
 /*******************************************************************************
  * Description:
@@ -24,6 +24,22 @@ T findMaxRecTail(const T[], const int, int = 0);
  * Output:
  * An integer to signal to the OS the exit code.
 *******************************************************************************/
+
+template <typename T>
+T findMaxRecTail(const T arr[], const int SIZE, int i) {
+
+    if (i == SIZE-1) {
+        return arr[i];
+    }
+
+    T mx = findMaxRecTail(arr, SIZE, i+1);
+    if (arr[i] > mx) {
+        return arr[i];
+    }
+    else {
+        return mx;
+    }
+}
 
 int main() {
     // create the array
